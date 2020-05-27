@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="gameNode">
+      <UniqueIdentifier>{0a36884f-68f2-4a2a-b532-7500c08ff531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{d1336908-c940-475e-b5ee-a7c420fe86f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{f957d5a7-40a4-4ffb-a8bf-dacaedfb22a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL">
+      <UniqueIdentifier>{5bdb439e-7fbd-4b9d-b039-462885d830fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{79700535-20ef-4eff-9d3d-adfe0ba0687c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="progressBar">
+      <UniqueIdentifier>{af7a36bd-5bdb-4fcf-8639-4b4f4e7564cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="singletonBase">
+      <UniqueIdentifier>{51fae804-5d49-4a00-9011-4529021ca72b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="txtData">
+      <UniqueIdentifier>{0abb0ab8-59a9-442e-881b-388a49684c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{b607e235-5664-4350-9713-d3891005073a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="timer">
+      <UniqueIdentifier>{6507b485-3775-42cb-9c6b-6eb3d0542f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\character">
+      <UniqueIdentifier>{d536518b-103b-46da-ac34-ee8e22fab8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\character\player">
+      <UniqueIdentifier>{9ef62d20-0d2c-4c4d-86c0-79c7a85d8157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\character\enemy">
+      <UniqueIdentifier>{53546ade-ae9e-4e37-a32a-ccdf181e44fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\character\bullet">
+      <UniqueIdentifier>{8f2bd1ac-eb0c-489a-8ad7-f1be1a018724}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IWANNA.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>singletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>gameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="scene1.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene2.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>timer</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>mainGame\character</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>mainGame\character\player</Filter>
+    </ClInclude>
+    <ClInclude Include="objectPool.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="bossClass.h">
+      <Filter>mainGame\character\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>mainGame\character\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>mainGame\character\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="scene1_1.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="bossScene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene1_4.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene1_2.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene1_3.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="bossIntro.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneTitle.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>gameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="scene1.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene2.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>timer</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>mainGame\character</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>mainGame\character\player</Filter>
+    </ClCompile>
+    <ClCompile Include="objectPool.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="bossClass.cpp">
+      <Filter>mainGame\character\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>mainGame\character\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>mainGame\character\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="scene1_1.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="bossScene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene1_4.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene1_3.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene1_2.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="bossIntro.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneTitle.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
